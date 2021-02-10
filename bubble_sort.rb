@@ -1,2 +1,6 @@
-a = 5
-puts a
+
+def bubble_sort ()
+  i = 0
+  
+end
+
