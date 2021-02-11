@@ -10,10 +10,11 @@ def bubble_sort_by(array)
       i += 1
     end
   end
-  print(array)
+ array
 end
 
-puts bubble_sort_by([20, 8, 9, 0, 23]) { |left, right| left - right }
-bubble_sort_by(%w[hi hello hey]) do |left, right|
-  left.length - right.length
-end
+print bubble_sort_by([20, 8, 9, 0, 23]) { |left, right| left - right }
+puts
+print bubble_sort_by(%w[hi hello hey]) { |left, right|
+  left.length - right.length }
+
