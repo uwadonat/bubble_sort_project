@@ -5,7 +5,7 @@
 
  This is Bubble Sort project putting emphasis on the use of yield and passing a block to a method.
 
-<!-- ![screenshot](images/capstone.png) -->
+![screenshot](screenshot(bubble_sort).png)
 
 Additional description about the project and its features.
 
