@@ -12,7 +12,6 @@ def bubble_sort(array)
     break if swap == false
     end
   array
-  end
 end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
