@@ -1,11 +1,7 @@
 AllCops:
   Exclude:
     - "Guardfile"
-    - "Rakefile"
-
-  DisplayCopNames: true
-
-Layout/LineLength:
+    - "Rakefile"  DisplayCopNames: trueLayout/LineLength:
   Max: 120
 Metrics/MethodLength:
   Max: 20
@@ -15,10 +11,7 @@ Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
   ExcludedMethods: ['describe']
-  Max: 30
-
-
-Style/Documentation:
+  Max: 30Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
@@ -29,9 +22,7 @@ Style/AndOr:
 Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
-
-Layout/HashAlignment:
+  EnforcedStyle: neverLayout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
   AllowForAlignment: false
@@ -48,3 +39,6 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
